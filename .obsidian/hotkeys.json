@@ -1,0 +1,12 @@
+{
+  "markdown:toggle-preview": [],
+  "obsidian-emoji-toolbar:emoji-picker:open-picker": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "E"
+    }
+  ]
+}
