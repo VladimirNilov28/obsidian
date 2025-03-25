@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Education/kood jõhvi/Itinerary-prettifier/develop/План разработки.md",
+                "file": "Programming/Java/ZoneOffset (ZoneId).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "План разработки"
+              "title": "ZoneOffset (ZoneId)"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 561.5
+    "width": 440.5
   },
   "right": {
     "id": "31b45fb6d7513652",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Education/kood jõhvi/Itinerary-prettifier/Техническое задание.md",
+                "file": "Programming/Java/ZoneOffset (ZoneId).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Техническое задание"
+              "title": "Backlinks for ZoneOffset (ZoneId)"
             }
           },
           {
@@ -155,8 +155,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,15 +169,30 @@
   },
   "active": "84163c29a0e4b11c",
   "lastOpenFiles": [
-    "Education/kood jõhvi/Itinerary-prettifier/Дополнительные требования (refactoring).md",
-    "Education/kood jõhvi/Itinerary-prettifier/Техническое задание.md",
+    "Cache/Pasted image 20250325122914.png",
     "Education/kood jõhvi/Itinerary-prettifier/develop/План разработки.md",
+    "Education/kood jõhvi/Itinerary-prettifier/Дополнительные требования (refactoring).md",
+    "Programming/Java/ZoneOffset (ZoneId).md",
+    "Programming/Java/ZoneВDateTime и OffsetDateTime.md",
+    "Programming/Java/File Handling.md",
+    "Programming/Java/Stream.md",
+    "Cache/Pasted image 20250321232043.png",
+    "Cache/Pasted image 20250321232037.png",
+    "Programming/Java/Logger и SLF4J + Logback !!!.md",
+    "Cache/Pasted image 20250321214326.png",
+    "Cache/Pasted image 20250321213043.png",
+    "Cache/Pasted image 20250321210745.png",
+    "Education/Книги/2025/Java Concurrency in Practice.md",
+    "Dictionary/IO.md",
+    "Education/kood jõhvi/Itinerary-prettifier/Техническое задание.md",
+    "Education/Cybersecurity/IBM/Developing a backup and recovery strategy.md",
+    "ZoneId.md",
+    "Education/Cybersecurity/IVKHK STUDY/Как составить SLA.md",
+    "Programming/Java",
     "Dictionary/ICAO.md",
     "Dictionary/IATA.md",
     "Programming/BankApp/Техническое задание.md",
     "Краткое требование.md",
-    "Education/Cybersecurity/IBM/Developing a backup and recovery strategy.md",
-    "Education/Cybersecurity/IVKHK STUDY/Как составить SLA.md",
     "Education/kood jõhvi/Itinerary-prettifier/develop",
     "Dictionary/HADR.md",
     "Dictionary/SLA.md",

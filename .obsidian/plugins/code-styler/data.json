@@ -548,7 +548,7 @@
       "dark": {
         "codeblock": {
           "backgroundColour": "--code-background",
-          "textColour": "--code-normal"
+          "textColour": "#FF933D"
         },
         "gutter": {
           "backgroundColour": "--code-background",
