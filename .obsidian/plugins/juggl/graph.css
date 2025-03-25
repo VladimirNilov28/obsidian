@@ -1,0 +1,92 @@
+/* 
+  1) Базовые переменные (цвета и параметры анимации).
+     Подберите значения под вашу тему Obsidian.
+*/
+:root {
+  --juggl-node-default: #5e81ac; /* основной цвет узлов */
+  --juggl-node-stroke:  #eceff4; /* цвет обводки */
+  --juggl-link-color:   #d8dee9; /* цвет рёбер */
+  --juggl-text-color:   #eceff4; /* цвет подписей */
+  --juggl-hover-scale:  1.2;     /* во сколько раз увеличивается узел при наведении */
+  --juggl-transition:   0.2s;    /* скорость анимации переходов */
+}
+
+/* 
+  2) Стили для узлов (.node circle)
+     - скругление, плавный переход, базовые размеры.
+*/
+.node circle {
+  fill: var(--juggl-node-default);
+  stroke: var(--juggl-node-stroke);
+  stroke-width: 1px;
+  r: 8px;
+  transition: 
+    fill var(--juggl-transition) ease-in-out,
+    stroke var(--juggl-transition) ease-in-out,
+    r var(--juggl-transition) ease-in-out,
+    transform var(--juggl-transition) ease-in-out;
+}
+
+/* 3) Анимация «пульсации», которая меняет радиус (r) */
+@keyframes pulse {
+  0%   { r: 8px; }
+  50%  { r: 9px; }
+  100% { r: 8px; }
+}
+
+/* 
+  4) Эффект при наведении на узел:
+     - увеличиваем радиус,
+     - утолщаем обводку,
+     - добавляем анимацию «pulse».
+*/
+.node:hover circle {
+  r: calc(8px * var(--juggl-hover-scale));
+  stroke-width: 2px;
+  animation: pulse 2s infinite;
+}
+
+/* 
+  5) Подписи внутри узлов:
+     - цвет, размер, выравнивание, плавная смена непрозрачности.
+*/
+.node text {
+  fill: var(--juggl-text-color);
+  font-size: 12px;
+  pointer-events: none;       /* чтобы текст не мешал клику */
+  text-anchor: middle;        /* выравнивание по центру */
+  alignment-baseline: middle; /* выравнивание по вертикали */
+  transition: opacity var(--juggl-transition);
+}
+
+/* 
+  6) Стили для рёбер (links). 
+     Обычно у них класс .link, но проверьте в своей версии JuggL.
+*/
+.link {
+  stroke: var(--juggl-link-color);
+  stroke-opacity: 0.5;
+  transition: stroke-opacity var(--juggl-transition) ease-in-out;
+}
+
+.link:hover {
+  stroke-opacity: 1;
+}
+
+/* 
+  7) Автоматическая раскраска узлов по тегам:
+     - проверяем вхождение "#tag1", "#tag2", "#tag3" в data-tags узла.
+     - подставьте свои цвета и теги по необходимости.
+*/
+.node[data-tags*="#tag1"] circle {
+  fill: #bf616a; /* нежно-красный */
+}
+
+.node[data-tags*="#tag2"] circle {
+  fill: #ebcb8b; /* пастельный жёлтый */
+}
+
+.node[data-tags*="#tag3"] circle {
+  fill: #a3be8c; /* спокойный зелёный */
+}
+
