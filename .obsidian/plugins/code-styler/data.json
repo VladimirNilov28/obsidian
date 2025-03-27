@@ -457,9 +457,9 @@
       },
       "header": {
         "title": {
-          "textFont": "",
-          "textBold": false,
-          "textItalic": true
+          "textFont": "TimesNewRoman",
+          "textBold": true,
+          "textItalic": false
         },
         "languageTag": {
           "display": "none",
@@ -476,7 +476,7 @@
           "displayVersion": true,
           "displayTimestamp": true
         },
-        "fontSize": 14,
+        "fontSize": 13,
         "foldPlaceholder": ""
       },
       "highlights": {
@@ -558,7 +558,7 @@
         "header": {
           "backgroundColour": "--code-background",
           "title": {
-            "textColour": "--code-comment"
+            "textColour": "#D5A325"
           },
           "languageTag": {
             "backgroundColour": "--code-background",
