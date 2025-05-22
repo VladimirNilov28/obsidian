@@ -10,18 +10,31 @@
           {
             "id": "191efb88482e53ee",
             "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "juggl_view",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "5f2bdd0bd93f3d8b",
+            "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Java/Работа с данными/Buffering.md",
+                "file": "Programming/Java/SPRING/Intro to IoC/The Spring IoC Container.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Buffering"
+              "title": "The Spring IoC Container"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -40,7 +53,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "byCreatedTimeReverse",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -157,12 +170,32 @@
             "state": {
               "type": "juggl_nodes",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "cebb1a779d128121",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "c1e825e7c48d3186",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {},
               "icon": "ag-node-list",
               "title": "Juggl nodes"
             }
           },
           {
-            "id": "cebb1a779d128121",
+            "id": "800609f84871a5b4",
             "type": "leaf",
             "state": {
               "type": "juggl_style",
@@ -189,8 +222,15 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "191efb88482e53ee",
+  "active": "5f2bdd0bd93f3d8b",
   "lastOpenFiles": [
+    "Programming/Java/SPRING/Intro to IoC/Inversion of Control.md",
+    "Programming/Java/SPRING/Intro to IoC/Dependency Injection (DI).md",
+    "Programming/Java/SPRING/Intro to IoC/The Spring IoC Container.md",
+    "Programming/Java/SPRING/Intro to IoC",
+    "Programming/Java/Untitled.md",
+    "Programming/Java/SPRING",
+    "Programming/Java/Работа с данными/Buffering.md",
     "Programming/Java/Работа с данными/File Handling.md",
     "Programming/Java/Работа с данными/Java Files.md",
     "Programming/Java/Logger и SLF4J + Logback !!!.md",
@@ -206,11 +246,9 @@
     "Programming/Java/Дата и время/ZoneВDateTime и OffsetDateTime.md",
     "Programming/Java/Полиморфизм/Reader в объявлении класса.md",
     "Programming/Java/Полиморфизм/Writer в объявлении класса.md",
-    "Programming/Java/Работа с данными/Buffering.md",
     "Programming/Java/Работа с данными/Stream.md",
     "Programming/BankApp/Техническое задание.md",
     "Dictionary/IO.md",
-    "Programming/Java/Untitled.md",
     "Programming/Java/Дата и время",
     "Programming/Java/Работа с данными",
     "Programming/Java/Полиморфизм",
@@ -224,15 +262,10 @@
     "Programming/Java",
     "Dictionary/ICAO.md",
     "Dictionary/IATA.md",
-    "Краткое требование.md",
     "Education/kood jõhvi/Itinerary-prettifier/develop",
-    "Dictionary/HADR.md",
-    "Dictionary/SLA.md",
     "Cache/airport-lookup 1.csv",
     "Untitled 1.canvas",
     "Cache/airport-lookup 2.csv",
-    "Cache/airport-lookup.csv",
-    "Education/kood jõhvi/Itinerary-prettifier",
-    "Education/kood jõhvi"
+    "Cache/airport-lookup.csv"
   ]
 }
