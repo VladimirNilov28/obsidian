@@ -20,21 +20,33 @@
             }
           },
           {
-            "id": "5f2bdd0bd93f3d8b",
+            "id": "a3bcdc59c9663228",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "juggl_view",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "6822e26ede9c6f30",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Java/SPRING/Intro to IoC/The Spring IoC Container.md",
+                "file": "Programming/Java/SPRING/Scopes/singleton.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The Spring IoC Container"
+              "title": "singleton"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -222,12 +234,22 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "5f2bdd0bd93f3d8b",
+  "active": "6822e26ede9c6f30",
   "lastOpenFiles": [
-    "Programming/Java/SPRING/Intro to IoC/Inversion of Control.md",
-    "Programming/Java/SPRING/Intro to IoC/Dependency Injection (DI).md",
-    "Programming/Java/SPRING/Intro to IoC/The Spring IoC Container.md",
-    "Programming/Java/SPRING/Intro to IoC",
+    "Programming/Java/SPRING/Intro to Spring/Inversion of Control.md",
+    "Programming/Java/SPRING/Intro to Spring/Constructor-Based Dependency Injection.md",
+    "Programming/Java/SPRING/Scopes/singleton.md",
+    "Programming/Java/SPRING/Scopes/Types of Scopes.md",
+    "Programming/Java/SPRING/Intro to Spring/What is a Spring Bean?.md",
+    "Programming/Java/SPRING/Scopes",
+    "Programming/Java/SPRING/Intro to IoC/Untitled",
+    "Programming/Java/SPRING/Intro to Spring/IoC and DI pattern.md",
+    "Programming/Java/SPRING/Intro to IoC/What is a Spring Bean&.md",
+    "Programming/Java/SPRING/Intro to Spring/Setter-Based Dependency Injection.md",
+    "Programming/Java/SPRING/Untitled",
+    "Programming/Java/SPRING/Intro to Spring/The Spring IoC Container.md",
+    "Programming/Java/SPRING/Intro to Spring/Dependency Injection (DI).md",
+    "Programming/Java/SPRING/Intro to Spring",
     "Programming/Java/Untitled.md",
     "Programming/Java/SPRING",
     "Programming/Java/Работа с данными/Buffering.md",
@@ -255,17 +277,8 @@
     "Cache/Pasted image 20250321232043.png",
     "Cache/Pasted image 20250321213043.png",
     "Cache/Pasted image 20250321210745.png",
-    "Education/Книги/2025/Java Concurrency in Practice.md",
-    "Education/Cybersecurity/IBM/Developing a backup and recovery strategy.md",
-    "ZoneId.md",
-    "Education/Cybersecurity/IVKHK STUDY/Как составить SLA.md",
     "Programming/Java",
-    "Dictionary/ICAO.md",
-    "Dictionary/IATA.md",
     "Education/kood jõhvi/Itinerary-prettifier/develop",
-    "Cache/airport-lookup 1.csv",
-    "Untitled 1.canvas",
-    "Cache/airport-lookup 2.csv",
-    "Cache/airport-lookup.csv"
+    "Untitled 1.canvas"
   ]
 }

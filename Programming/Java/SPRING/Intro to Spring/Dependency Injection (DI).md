@@ -39,5 +39,12 @@ public class Store {
 }
 ```
 
+---
 ## [[The Spring IoC Container|Как мы можем обеспечить реализацию Item с помощю метаданны (например XML-кнфигурации, аннотаций или другие деклоративные способы)]]
 Это намекает на использование инверсии управления через конфигурацию, а не через явное создание объектов
+
+---
+
+Виды *DI*:
+- [[Constructor-Based Dependency Injection]]
+- [[Setter-Based Dependency Injection]]
