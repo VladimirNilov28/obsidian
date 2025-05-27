@@ -34,19 +34,31 @@
           {
             "id": "6822e26ede9c6f30",
             "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "juggl_view",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "4e62992357c36b51",
+            "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Java/SPRING/Scopes/singleton.md",
+                "file": "Programming/Java/SPRING/Intro to Spring/@Component vs @Repository and @Service in Spring.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "singleton"
+              "title": "@Component vs @Repository and @Service in Spring"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -202,12 +214,32 @@
             "state": {
               "type": "juggl_nodes",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "800609f84871a5b4",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "3f4c5f9fbef5b074",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {},
               "icon": "ag-node-list",
               "title": "Juggl nodes"
             }
           },
           {
-            "id": "800609f84871a5b4",
+            "id": "945edf9ad5b0e640",
             "type": "leaf",
             "state": {
               "type": "juggl_style",
@@ -234,20 +266,32 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "6822e26ede9c6f30",
+  "active": "4e62992357c36b51",
   "lastOpenFiles": [
+    "Programming/Java/SPRING/Intro to Spring/@Qualifier.md",
+    "Programming/Java/SPRING/Intro to Spring/@Component vs @Repository and @Service in Spring.md",
+    "Programming/Java/SPRING/Intro to Spring/Types of Scopes.md",
+    "Programming/Java/SPRING/Intro to Spring/Setter-Based Dependency Injection.md",
     "Programming/Java/SPRING/Intro to Spring/Inversion of Control.md",
-    "Programming/Java/SPRING/Intro to Spring/Constructor-Based Dependency Injection.md",
-    "Programming/Java/SPRING/Scopes/singleton.md",
-    "Programming/Java/SPRING/Scopes/Types of Scopes.md",
+    "Programming/Java/SPRING/Intro to Spring/IoC and DI pattern.md",
+    "Programming/Java/SPRING/Scopes/Singleton.md",
+    "Programming/Java/SPRING/Scopes/prototype.md",
+    "Programming/Java/SPRING/Scopes/websocket.md",
+    "Programming/Java/SPRING/Scopes/application.md",
+    "Programming/Java/SPRING/Scopes/session.md",
+    "Programming/Java/SPRING/Scopes/request.md",
+    "Programming/Java/SPRING/Intro to Spring/The Spring IoC Container.md",
     "Programming/Java/SPRING/Intro to Spring/What is a Spring Bean?.md",
+    "Templates/Default Template.md",
+    "Templates/Book Template.md",
+    "Templates/Course Template.md",
+    "Templates/Daily Template.md",
+    "Untitled 1.canvas",
+    "Programming/Java/SPRING/Intro to Spring/Constructor-Based Dependency Injection.md",
     "Programming/Java/SPRING/Scopes",
     "Programming/Java/SPRING/Intro to IoC/Untitled",
-    "Programming/Java/SPRING/Intro to Spring/IoC and DI pattern.md",
     "Programming/Java/SPRING/Intro to IoC/What is a Spring Bean&.md",
-    "Programming/Java/SPRING/Intro to Spring/Setter-Based Dependency Injection.md",
     "Programming/Java/SPRING/Untitled",
-    "Programming/Java/SPRING/Intro to Spring/The Spring IoC Container.md",
     "Programming/Java/SPRING/Intro to Spring/Dependency Injection (DI).md",
     "Programming/Java/SPRING/Intro to Spring",
     "Programming/Java/Untitled.md",
@@ -256,21 +300,10 @@
     "Programming/Java/Работа с данными/File Handling.md",
     "Programming/Java/Работа с данными/Java Files.md",
     "Programming/Java/Logger и SLF4J + Logback !!!.md",
-    "Programming/Java/Дата и время/ZoneOffset (ZoneId).md",
     "Cache/Pasted image 20250321232037.png",
     "Cache/Pasted image 20250326223739.png",
     "Cache/Pasted image 20250325122914.png",
     "Cache/Pasted image 20250321214326.png",
-    "Education/kood jõhvi/Itinerary-prettifier/Техническое задание.md",
-    "Education/kood jõhvi/Itinerary-prettifier/Дополнительные требования (refactoring).md",
-    "Education/kood jõhvi/Itinerary-prettifier/develop/План разработки.md",
-    "Programming/Java/Дата и время/ZoneOffset (ZoneId) GPT verse.md",
-    "Programming/Java/Дата и время/ZoneВDateTime и OffsetDateTime.md",
-    "Programming/Java/Полиморфизм/Reader в объявлении класса.md",
-    "Programming/Java/Полиморфизм/Writer в объявлении класса.md",
-    "Programming/Java/Работа с данными/Stream.md",
-    "Programming/BankApp/Техническое задание.md",
-    "Dictionary/IO.md",
     "Programming/Java/Дата и время",
     "Programming/Java/Работа с данными",
     "Programming/Java/Полиморфизм",
@@ -278,7 +311,6 @@
     "Cache/Pasted image 20250321213043.png",
     "Cache/Pasted image 20250321210745.png",
     "Programming/Java",
-    "Education/kood jõhvi/Itinerary-prettifier/develop",
-    "Untitled 1.canvas"
+    "Education/kood jõhvi/Itinerary-prettifier/develop"
   ]
 }
